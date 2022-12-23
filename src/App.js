@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 
-import FirstComponent from "./Components/FirstComponent";
+
 // import RadarChart from "./Components/RadarChart";
 // import 'bootstrap/dist/css/bootstrap.min.css'
 import {Button} from "react-bootstrap";
+import PlayerComponent from "./Components/PlayerComponent";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import RadarChart from "./Components/RadarChart";
 import LineChart from "./Components/LineChart";
@@ -12,9 +13,10 @@ import StartStopInterface from "./Components/StartStopInterface";
 function App() {
   return (
       <div className={'flex-column'}>
-          <StartStopInterface/>
+          {/*<StartStopInterface/>*/}
           {/*<RadarChart />*/}
           {/*<LineChart/>*/}
+          <PlayerComponent/>
       </div>
   );
 }
